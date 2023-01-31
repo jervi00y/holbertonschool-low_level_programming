@@ -14,5 +14,5 @@ for (i = 0; myput[i]; i++)
 	_putchar(myput[i];
 _putchar('\n');
 return (0);
-}}
+}
 
