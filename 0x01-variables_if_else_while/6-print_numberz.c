@@ -1,19 +1,19 @@
 #include <stdio.h>
->
+
 /**
  * main - Entry point
  *
- * Return: Always 0 (Success)
+ * Return: Always 0 (Succes)
  */
+
 int main(void)
 {
 	int n;
 
-	for (d = '0'; d <= '9'; d++)
-		putchar(n);
-}
-
-		putchar('\n');
-
+	for (n = 0 ; n < 10 ; n++)
+	{
+		putchar(n + '0');
+	}
+	putchar('\n');
 	return (0);
 }
